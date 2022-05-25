@@ -12,6 +12,10 @@
 		6B2A81D738A340AD12B54972 /* Pods_StarWarsOpedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4884293E01387DDB245CC1FF /* Pods_StarWarsOpedia.framework */; };
 		D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F2071F4A9144005CD714 /* Main.storyboard */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
+		D93968E1283E8F6500F45019 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93968E0283E8F6500F45019 /* Film.swift */; };
+		D93968E3283E908500F45019 /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93968E2283E908500F45019 /* Films.swift */; };
+		D93968E5283E942C00F45019 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93968E4283E942C00F45019 /* Starship.swift */; };
+		D93968E7283E98B400F45019 /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93968E6283E98B400F45019 /* Starships.swift */; };
 		E087AAD623620D0900D1E33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E087AAD523620D0800D1E33E /* Assets.xcassets */; };
 		E087AAD923620E3B00D1E33E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E087AAD723620E3B00D1E33E /* DetailViewController.swift */; };
 		E087AADA23620E3B00D1E33E /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E087AAD823620E3B00D1E33E /* MainTableViewController.swift */; };
@@ -27,6 +31,10 @@
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A5F20F1F4A9144005CD714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D93968E0283E8F6500F45019 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		D93968E2283E908500F45019 /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		D93968E4283E942C00F45019 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		D93968E6283E98B400F45019 /* Starships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
 		E087AAD523620D0800D1E33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = StarWarsOpedia/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		E087AAD723620E3B00D1E33E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E087AAD823620E3B00D1E33E /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +56,10 @@
 			isa = PBXGroup;
 			children = (
 				183D953C23DF5A4700845F5F /* Displayable.swift */,
+				D93968E0283E8F6500F45019 /* Film.swift */,
+				D93968E2283E908500F45019 /* Films.swift */,
+				D93968E4283E942C00F45019 /* Starship.swift */,
+				D93968E6283E98B400F45019 /* Starships.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -228,6 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93968E1283E8F6500F45019 /* Film.swift in Sources */,
+				D93968E5283E942C00F45019 /* Starship.swift in Sources */,
+				D93968E3283E908500F45019 /* Films.swift in Sources */,
+				D93968E7283E98B400F45019 /* Starships.swift in Sources */,
 				D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */,
 				E087AADA23620E3B00D1E33E /* MainTableViewController.swift in Sources */,
 				183D953D23DF5A4700845F5F /* Displayable.swift in Sources */,
